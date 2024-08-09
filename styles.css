@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar starts here */
+.mainParentDIV{
+  height: auto;
+  width: 100%;
+}
+.mainbar {
+  height: 8vh;
+  background-color: white;
+}
+.navbar {
+  margin-right: auto;
+  width: 95%;
+  display: flex;
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  margin-left: auto;
+  justify-content: space-around;
+  gap: 350px;
+}
+.nexcent {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+  text-transform: capitalize;
+  align-items: center;
+  /* justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px; */
+}
+.button1 {
+  width: 130px;
+  height: 40px;
+  color: white;
+  background-color: #4caf4f;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+/* navbar ends here */
+.section2 {
+  height: 70vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.lessontext {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  width: 700px;
+}
+.innersection {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: gray;
+}
+.illustrationdiv {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.Illustrationpic {
+  height: 100%;
+  width: 100%;
+}
+
+/* phase 3 */
+.logos {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.clients {
+  height: 50vh;
+  text-align: center;
+  text-transform: capitalize;
+
+  align-content: center;
+}
+.clients div img {
+  height: 45%;
+  width: 45%;
+  object-fit: contain;
+}
+.clients div {
+  height: 100%;
+  width: 100%;
+}
+.clients h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000px;
+}
+.clients p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.clients h2 {
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* end of phase 3 */
+
+/* 4th phase */
+.fourthphase {
+  height: 40vh;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.innerbox {
+  background-color: #f5f7fa;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fourthphase div h1 {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.fourthphase div p {
+  color: gray;
+}
+/* end of 4th phase */
+/* 5th phase */
+.fifthphase {
+  height: 70vh;
+  background-color: white;
+  align-content: center;
+}
+.innerfifth {
+  display: flex;
+  align-items: center;
+}
+.fifthphase .innerfifth h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(94, 91, 91);
+  text-wrap: wrap;
+}
+.fifthphase .innerfifth p {
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* end of 5th phase */
+
+/* 6th phase */
+.sixthphase {
+  height: 40vh;
+  background-color: #f5f7fa;
+  align-content: center;
+  align-items: center;
+}
+.innersixth {
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.members {
+  display: flex;
+  align-items: center;
+
+  height: 130px;
+  width: 300px;
+  grid-gap: 64px;
+}
+
+.helping {
+  font-family: sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  font-size: 15px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.members div h1 {
+  font-family: sans-serif;
+  color: rgb(41, 41, 41);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.members div p {
+  font-size: 15px;
+}
+/* end of 6th phase */
+.seventhphase {
+  height: auto;
+}
+.seventhphase h1 {
+  font-family: sans-serif;
+}
+.Streamlined {
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  margin-top: -70px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+
+
+}
+.caring {
+  text-align: center;
+  height: 20vh;
+  align-items: center;
+  align-content: center;
+}
+.caring p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.streamtext{
+  text-wrap: wrap;
+  font-size: 20px;
+}
+#readme {
+  margin-left: auto;
+  margin-right: auto;
+}
+.innerseventh2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 15px;
+}
+/* .innerseventh2 div {
+  height: 100%;
+  width: 100%;
+} */
+.innerseventh2 div img {
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+}
+.streamlined div {
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.G{height: auto;
+  width: 100%;
+  background-color:  black;
+  margin-top: 80px;
+}
+
+ .Ga{height: 50vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  }
+  
+  .Ge{
+    margin-bottom: 10px;cursor: pointer;
+    color: rgb(187, 181, 181);}
+  .dod{
+    height: 35px;gap: 10px;
+  }
+
+  
+  .tt{
+    text-align: center;justify-content: center;color: rgb(192, 192, 192);
+  }
+  .end{
+    margin-bottom: 10px;color: rgb(187, 181, 181);
+  }
+  .ty{
+    margin-top: 20px;margin-bottom: 20px;
+  }
+  .rt{width: 100%;margin-left: auto;margin-right: auto;}
+  @media(max-width:834px){
+    .tt{width: 100%;flex-wrap: wrap;display: flex;margin-top: -5vh;}
+    
+    .overall-parent-div{width: 100%;height: auto;}
+    
+  }
+
+
+@media (max-width:834px) {
+  .menu {
+    display: none;
+  }
+  .innersection {
+    flex-wrap: wrap;
+  }
+  .section2 {
+    height: auto;
+  }
+  .lessons {
+    height: auto;
+  }
+  .fourthphase {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .fifthphase {
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .innerfifth {
+    flex-wrap: wrap;
+  }
+  .sixthphase {
+    height: auto;
+  }
+  .innersixth {
+    flex-wrap: wrap;
+  }
+  .blocks {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .innerEight {
+    flex-wrap: wrap;
+  }
+  .list div {
+    flex-wrap: wrap;
+  }
+  .innerseventh2 {
+    flex-wrap: wrap;
+
+    
+  }
+  .members{
+    grid-gap: 10px;
+    width: 130px;
+  }
+  .members div h1{
+    font-size: 18px;
+  }
+  .lessontext{
+    font-size: 23px;
+    width: 350px;
+    margin-left: 7px;
+
+  }
+  .text{
+    margin-left: 7px;
+    font-size: 13px;
+    margin-top: 15px;
+    width: 300px;
+  }
+  #reg{
+    margin-left: 7px;
+  }
+.section2{
+  height: 100vh;
+  font-family: serif;
+}
+.innerbox {
+height: 35vh;
+width: 45vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+.clients h1{
+  font-size: 20px;
+}
+.clients h2{
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+.clients p{
+  font-size: 13px;
+  font-family: serif;
+}
+#endnex{
+  margin-bottom: 20px;
+}
+.logos{
+  gap: 2px;
+}
+.innerbox h1{
+  font-size: 20px;
+}
+.innerbox p{
+  font-size: 11px;
+  text-wrap: wrap;
+}
+.innerfifth div img{
+  height: 100%;
+  width: 100%;
+}
+.fifthphase .innerfifth h1{
+  font-size: 20px;
+  color: black;
+  margin-left: 7px;
+}
+.fifthphase .innerfifth p{
+  font-size: 11px;
+  margin-left: 7px;
+}
+.tt{width: 100%;flex-wrap: wrap;display: flex;margin-top: -5vh;}
+    
+.overall-parent-div{width: 100%;height: auto;}
+#bt{
+  margin-left: 7px;
+}
+.helping h1{
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.helping p{
+  font-size: 11.5px;
+}
+.members div IMG{
+  height: 70%;
+  width: 70%;
+}
+.Ge{
+  margin-bottom: 20px;
+}
+.members div p{
+  font-size: 12px ;
+}
+.caring h1{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.caring p{
+  font-size: 13px;
+  text-wrap: wrap;
+}
+.innerseventh2 div img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+.streamtext{
+  font-size: 15px;
+}
+.innerseventh2 div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .Ga{height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: block;
+      padding-top: 30px;
+      padding-left: 0;
+      padding-left: 50px;
+      text-wrap: nowrap;
+      padding-bottom: 100px;
+  
+}
+.end{
+  margin-bottom: 20px;
+}
+/* .copy {
+  height: 180%;
+  width: 180%;
+} */
+}
+@media (max-width:1024px) {
+.navbar{
+  gap: 175px;
+}
+.inner1{
+  height: 50%;
+  width: 50%;
+  margin-left: 5px;
+}
+.illustrationdiv {
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+}
+.lessontext{
+  font-size: 30px;
+
+}
+.clients p{
+  font-size: 13px;
+}
+.clients h1{
+  font-size: 20px;
+}
+.clients h2{
+  font-size: 25px;
+  text-wrap: wrap;
+}
+.innerbox h1{
+  font-size: 20px;
+  text-wrap: wrap;
+}
+.innerbox{
+  height: 70%;
+  width: 80%;
+
+}
+.fifthphase .innerfifth h1{
+  font-size: 20px;
+  color: black;
+  margin-left: 7px;
+}
+.fifthphase .innerfifth p{
+  font-size: 11px;
+  margin-left: 7px;
+}
+/* .illus2{
+  height: 100%;
+  width: 100%;
+} */
+.helping h1{
+  font-size: 23px;
+  margin-bottom: 15px;
+  
+}
+.helping p{
+  font-size: 17px;
+}
+.members div IMG{
+  height: 100%;
+  width: 100%;
+}
+.members div p{
+  font-size: 12px ;
+}
+.members{
+  grid-gap: 20px;
+  width: 130px;
+}
+.members div h1{
+  font-size: 19px;
+}
+.seventhphase{
+  width: 100%;
+}
+/* .innerseventh2{
+  width: 100%;
+  height:auto ;
+  gap: 2px;
+} */
+/* .copy {
+  height: 1024px;
+  width: 1024px;
+} */
+/* .innerseventh2 div img {
+  height: 70%;
+  width: 70%;
+} */
+}
+@media (max-width:480px) {
+.section2{
+ height: 100vh;
+}
+}
